@@ -1,0 +1,146 @@
+  954  brew install git
+  955  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  956  brew install git
+  957  $ brew install git
+  959  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  966  brew install git
+  968  git --version 
+  969  git config --global user.name "Kimberly Williams"
+  970  git config -- global user.email themusickim@gmail.com
+  971  git config --global user.email themusickim@gmail.com
+  972  git config --global init.defaultBranch main
+  973  git --version
+  977  git status
+  978  git config --global core.editor "code --wait"
+  979  git config --list
+  983  cd Stat386/git_practice
+  984  git init
+  985  git status
+  988  rm - rf .git
+  989  rm -rf .git
+  991  git status
+  992  git init
+  993  git status
+  995  rm -rf .git
+  997  cd git-practice-KimmyBeeW
+  998  git init
+  999  git status
+ 1009  cd Stat386/git-practice-KimmyBeeW
+ 1010  git add Readme.md
+ 1011  git commit -m 'add Readme.md file with description of repo'
+ 1012  git status
+ 1013  git log
+ 1014  touch .gitignore
+ 1015  git add .gitignore
+ 1016  git commit -m 'add .gitignore for api-keys.txt'
+ 1020  git status
+ 1021  git checkout -b features
+ 1022  git log
+ 1025  git add .
+ 1026  git commit -m "add empty file"
+ 1027  git add .
+ 1028  git commit -m "update new_features.txt"
+ 1029  git log
+ 1030  git checkout main
+ 1031  git log
+ 1033  git merge main
+ 1034  git merge features
+ 1035  git reset
+ 1036  git checkout main
+ 1037  git checkout features
+ 1038  git checkout main
+ 1039  git merge main
+ 1040  git merge features
+ 1041  git status
+ 1042  git reset
+ 1043  git status
+ 1044  git commit -m "try to fix getting ahead, and start over"
+ 1045  git add .
+ 1046  git commit -m "try to fix getting ahead, and start over"
+ 1047  git status
+ 1048  git log
+ 1049  git checkout features
+ 1050  git checkout main
+ 1051  git commit -m "change file 1"
+ 1052  git add .
+ 1053  git commit -m "change file 1"
+ 1054  git log
+ 1055  git merge features
+ 1056  git pull
+ 1057  git checkout main
+ 1058  git merge features
+ 1059  git commit
+ 1061  git status
+ 1062  git log
+ 1063  git branch
+ 1065  git switch features
+ 1068  git checkout main
+ 1069  git merge features
+ 1070  git merge main
+ 1071  git checkout features
+ 1072  git merge main
+ 1073  git branch
+ 1074  git checkout main
+ 1076  git merge main
+ 1077  git merge features
+ 1078  git checkout features
+ 1080  git branch --delete features
+ 1081  git checkout main
+ 1082  git branch --delete features
+ 1083  git status
+ 1084  git branch
+ 1085  git checkout -b features
+ 1086  git checkout main
+ 1087  git branch --delete features
+ 1088  git add .
+ 1089  git commit -m "reset again to part G"
+ 1090  git add .
+ 1091  git commit -m "reset again to part G"
+ 1092  git status
+ 1093  git checkout -b features
+ 1094  git log
+ 1096  git add .
+ 1097  git commit -m "add empty file"
+ 1098  git add .
+ 1099  git commit -m "update new_features.txt
+ 1100  git status
+ 1101  git commit -m "update new_features.txt"
+ 1102  git status
+ 1103  git branch
+ 1104  git checkout main
+ 1105  git add .
+ 1106  git status
+ 1107  git commit -m "update file 1"
+ 1108  git branch
+ 1110  git merge features
+ 1111  git status
+ 1112  git commit
+ 1113  git commit -m "merge branches pt. G"
+ 1114  git branch
+ 1116  git log
+ 1117  git add new_features.txt
+ 1118  git status
+ 1119  git commit -m "update new_features.txt"
+ 1120  git checkout features
+ 1121  git add new_features.txt
+ 1122  git commit -m "update new_features.txt in features branch"
+ 1123  git checkout main
+ 1124  git merge features
+ 1126  git branch --delete features
+ 1127  git branch
+ 1130  git remote add origin git@github.com:KimmyBeeW/git-practice-KimmyBeeW.git
+ 1131  git push -u origin main
+ 1133  git clone git@github.com:KimmyBeeW/git-practice-samrich277.git
+ 1134  cd git-practice-samrich277
+ 1135  git checkout -b features-KimmyBeeW
+ 1137  git add .
+ 1138  git commit -m "add file asking about fav fruit"
+ 1139  git push origin features-KimmyBeeW
+ 1140  git status
+ 1141  git add .
+ 1142  git commit -m "update new file, it may not have saved before"
+ 1143  git status
+ 1144  git push origin features-KimmyBeeW
+ 1145  cd ../git-practice-KimmyBeeW
+ 1146  git pull
+ 1147  git log --oneline > gitlog.txt
